@@ -22,20 +22,17 @@ export const Projects = () => {
   return (
     <section
       id="projects"
-      className="min-h-screen flex items-center justify-center relative bg-[#1a1a1a] overflow-hidden"
+      className="min-h-screen flex items-center justify-center relative bg-[#f5f5dc] overflow-hidden"
     >
-      {/* Starry Background */}
-      <div className="absolute inset-0 bg-stars"></div>
-
       <RevealOnScroll>
         <div className="max-w-5xl mx-auto px-4">
-          <h2 className="text-5xl md:text-6xl font-bold mb-8 bg-gradient-to-r from-[#f5f5dc] to-[#d2b48c] bg-clip-text text-transparent text-center">
+          <h2 className="text-5xl md:text-6xl font-bold mb-8 bg-gradient-to-r from-[#8ecae6] to-[#d2b48c] bg-clip-text text-transparent text-center">
             Featured Projects
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* QKART Backend */}
-            <div className="p-6 rounded-xl bg-[#f5f5dc] text-[#1a1a1a] hover:bg-[#d2b48c] hover:text-[#1a1a1a] transition-all duration-200 shadow-md hover:shadow-lg">
+            <div className="p-6 rounded-xl bg-[#f5f5dc] text-[#1a1a1a] hover:bg-[#e3f2fd] hover:shadow-xl border border-[#e3f2fd] shadow-md transition-all duration-200">
               <h3 className="text-xl font-bold mb-2">QKART Backend</h3>
               <p className="text-[#1a1a1a] mb-4">
                 Designed and deployed scalable REST APIs for an e-commerce platform. Enabled secure authentication, robust cart/checkout, and CI/CD deployment. Improved reliability and test coverage with automated tests.
@@ -71,7 +68,7 @@ export const Projects = () => {
             </div>
 
             {/* QKART Frontend */}
-            <div className="p-6 rounded-xl bg-[#f5f5dc] text-[#1a1a1a] hover:bg-[#d2b48c] hover:text-[#1a1a1a] transition-all duration-200 shadow-md hover:shadow-lg">
+            <div className="p-6 rounded-xl bg-[#f5f5dc] text-[#1a1a1a] hover:bg-[#e3f2fd] hover:shadow-xl border border-[#e3f2fd] shadow-md transition-all duration-200">
               <h3 className="text-xl font-bold mb-2">QKART Frontend</h3>
               <p className="text-[#1a1a1a] mb-4">
                 QKart is an E-commerce application offering a variety of products
@@ -120,7 +117,7 @@ export const Projects = () => {
             </div>
 
             {/* XBOARD */}
-            <div className="p-6 rounded-xl bg-[#f5f5dc] text-[#1a1a1a] hover:bg-[#d2b48c] hover:text-[#1a1a1a] transition-all duration-200 shadow-md hover:shadow-lg">
+            <div className="p-6 rounded-xl bg-[#f5f5dc] text-[#1a1a1a] hover:bg-[#e3f2fd] hover:shadow-xl border border-[#e3f2fd] shadow-md transition-all duration-200">
               <h3 className="text-xl font-bold mb-2">XBOARD</h3>
               <p className="text-[#1a1a1a] mb-4">
                 XBoard is a News Feed website featuring the latest news for select
@@ -170,7 +167,7 @@ export const Projects = () => {
             </div>
 
             {/* XFLIX 2022 */}
-            <div className="p-6 rounded-xl bg-[#f5f5dc] text-[#1a1a1a] hover:bg-[#d2b48c] hover:text-[#1a1a1a] transition-all duration-200 shadow-md hover:shadow-lg">
+            <div className="p-6 rounded-xl bg-[#f5f5dc] text-[#1a1a1a] hover:bg-[#e3f2fd] hover:shadow-xl border border-[#e3f2fd] shadow-md transition-all duration-200">
               <h3 className="text-xl font-bold mb-2">XFLIX 2022</h3>
               <p className="text-[#1a1a1a] mb-4">
                 Video sharing app inspired by YouTube. Built with React and Redux, featuring video filtering, likes, and uploads. Integrated a performant backend with MongoDB and optimized queries for fast data access.

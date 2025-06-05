@@ -29,14 +29,11 @@ export const Contact = () => {
   return (
     <section
       id="contact"
-      className="min-h-screen flex items-center justify-center relative bg-[#1a1a1a] overflow-hidden"
+      className="min-h-screen flex items-center justify-center relative bg-[#f5f5dc] overflow-hidden"
     >
-      {/* Starry Background */}
-      <div className="absolute inset-0 bg-stars"></div>
-
       <RevealOnScroll>
         <div className="text-center z-10 px-4">
-          <h2 className="text-5xl md:text-6xl font-bold mb-8 bg-gradient-to-r from-[#f5f5dc] to-[#d2b48c] bg-clip-text text-transparent text-center">
+          <h2 className="text-5xl md:text-6xl font-bold mb-8 bg-gradient-to-r from-[#8ecae6] to-[#d2b48c] bg-clip-text text-transparent text-center">
             Get In Touch
           </h2>
 

@@ -5,8 +5,9 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Space Grotesk", sans-serif;
-  background: #1a1a1a;
-  color: #fefae0;
+  background: linear-gradient(135deg, #f5f5dc 70%, #e3f2fd 100%);
+  color: #232323;       /* Dark gray for text */
+  max-width: 100vw;
   overflow-x: hidden;
 }
 
@@ -97,4 +98,18 @@ body {
 }
 .animate-loading-bar {
   animation: loading-bar 1.2s linear infinite;
+}
+
+.section-accent {
+  width: 64px;
+  height: 4px;
+  margin: 0 auto 2rem auto;
+  border-radius: 2px;
+  background: linear-gradient(90deg, #8ecae6, #d2b48c);
+  animation: accent-move 2s infinite alternate;
+}
+
+@keyframes accent-move {
+  0% { box-shadow: 0 0 0 #8ecae6; }
+  100% { box-shadow: 0 0 16px #8ecae6; }
 }

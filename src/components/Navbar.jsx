@@ -12,7 +12,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
           {/* Logo */}
           <a
             href="#home"
-            className="font-sans text-lg xs:text-xl sm:text-2xl font-bold text-[#4b3f2f]"
+            className="font-sans text-xl sm:text-2xl font-extrabold text-[#4b3f2f] tracking-tight hover:text-[#8ecae6] transition-colors"
           >
             Levansh Bhan
           </a>
@@ -32,7 +32,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
               <a
                 key={section}
                 href={`#${section}`}
-                className="text-[#4b3f2f] hover:text-[#8c7a6b] transition-colors"
+                className="text-[#4b3f2f] font-medium hover:text-[#8c7a6b] hover:underline transition-colors focus:ring-2 focus:ring-[#8ecae6]"
               >
                 {section.charAt(0).toUpperCase() + section.slice(1)}
               </a>
