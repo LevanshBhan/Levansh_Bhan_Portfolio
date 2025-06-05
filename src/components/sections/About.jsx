@@ -9,6 +9,8 @@ export const About = () => {
     "CSS3",
     "MUI",
     "Bootstrap",
+    "Tailwind CSS",
+    "Vite",
   ];
 
   const backendSkills = [
@@ -53,10 +55,16 @@ export const About = () => {
           </h2>
 
           <p className="text-[#f5f5dc] text-lg mb-8 max-w-lg mx-auto">
-            Full-stack developer with a strong foundation in computer science and a passion for building scalable, user-focused web applications.
+            I’ve worked on real-world fullstack projects during internships at{" "}
+            <span className="font-semibold text-[#d2b48c]">PwC</span> and{" "}
+            <span className="font-semibold text-[#d2b48c]">Amicus Infotech</span>
+            — from building internal platforms to deploying live e-commerce systems.
             <br />
             <br />
-            Currently pursuing my Master's in Computer Science at TU Darmstadt with a focus on AI and Data Science. I bring hands-on experience from building production-grade projects and contributing to real-world teams at PwC and Amicus Infotech.
+            Currently pursuing my CS Master’s at{" "}
+            <span className="font-semibold text-[#d2b48c]">TU Darmstadt</span>, I’m
+            looking for a working student role where I can contribute to scalable
+            products, clean code, and great user experience.
           </p>
 
           {/* Skills Section */}

@@ -31,11 +31,10 @@ export const Home = () => {
           </h1>
 
           <p className="text-[#f5f5dc] text-lg mb-8 max-w-lg mx-auto">
-            I’m a full-stack developer focused on building reliable, performant web
-            applications with clean architecture and thoughtful design.
+          A full-stack developer building clean, efficient, and scalable web applications with a strong focus on usability and performance.
             <br />
             <br />
-            <strong>Goal:</strong> To contribute to high-impact products by
+            <span className="font-semibold text-[#d2b48c]"><strong>Goal:</strong></span> To contribute to high-impact products by
             delivering scalable code, seamless user experiences, and consistent
             technical quality — as part of a collaborative, purpose-driven team.
           </p>
@@ -57,11 +56,12 @@ export const Home = () => {
             </a>
 
             <a
-              href="/resume.pdf"
-              download
-              className="bg-[#d2b48c] text-[#1a1a1a] py-2.5 px-5 sm:py-3 sm:px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(210,180,140,0.4)] text-base sm:text-lg"
+              href="https://drive.google.com/file/d/1CYhpH6YGq2DdQK4_jO5oarmm7OlDT4_V/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[#f5f5dc] text-[#1a1a1a] py-2.5 px-5 sm:py-3 sm:px-6 rounded font-medium transition relative overflow-hidden hover:bg-[#d2b48c] hover:text-[#1a1a1a] hover:shadow-[0_0_15px_rgba(210,180,140,0.4)] text-base sm:text-lg border border-[#d2b48c]"
             >
-              Download Resume
+              Lebenslauf
             </a>
           </div>
         </div>

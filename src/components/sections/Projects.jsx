@@ -38,17 +38,7 @@ export const Projects = () => {
             <div className="p-6 rounded-xl bg-[#f5f5dc] text-[#1a1a1a] hover:bg-[#d2b48c] hover:text-[#1a1a1a] transition-all duration-200 shadow-md hover:shadow-lg">
               <h3 className="text-xl font-bold mb-2">QKART Backend</h3>
               <p className="text-[#1a1a1a] mb-4">
-                QKart is an E-commerce application offering a variety of products
-                for customers to choose from. During the course of this project:
-                <ul className="list-disc pl-5">
-                  <li>
-                    Built the complete set of REST APIs following best practices.
-                  </li>
-                  <li>Used MongoDB NoSQL database for data storage.</li>
-                  <li>Implemented authentication, shopping cart, and checkout logic.</li>
-                  <li>Wrote unit and integration tests using Jest framework.</li>
-                  <li>Deployed the application using Heroku and MongoDB Atlas.</li>
-                </ul>
+                Designed and deployed scalable REST APIs for an e-commerce platform. Enabled secure authentication, robust cart/checkout, and CI/CD deployment. Improved reliability and test coverage with automated tests.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {[
@@ -58,13 +48,9 @@ export const Projects = () => {
                   "JWT",
                   "Jest",
                   "Heroku",
-                  "MongoDB Atlas",
-                  "Mongoose ODM",
-                  "JOI Validation",
                   "REST APIs",
-                  "Test Driven Development",
-                  "Integration Testing",
-                  "Deployment",
+                  "CI/CD",
+                  "Testing",
                 ].map((tech, key) => (
                   <span
                     key={key}
@@ -175,6 +161,42 @@ export const Projects = () => {
               </div>
               <a
                 href="https://xboard-news-site.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-center bg-[#1a1a1a] text-[#f5f5dc] py-2 px-4 rounded font-medium hover:bg-[#4b3f2f] hover:text-[#f5f5dc] transition"
+              >
+                View Project
+              </a>
+            </div>
+
+            {/* XFLIX 2022 */}
+            <div className="p-6 rounded-xl bg-[#f5f5dc] text-[#1a1a1a] hover:bg-[#d2b48c] hover:text-[#1a1a1a] transition-all duration-200 shadow-md hover:shadow-lg">
+              <h3 className="text-xl font-bold mb-2">XFLIX 2022</h3>
+              <p className="text-[#1a1a1a] mb-4">
+                Video sharing app inspired by YouTube. Built with React and Redux, featuring video filtering, likes, and uploads. Integrated a performant backend with MongoDB and optimized queries for fast data access.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {[
+                  "React.js",
+                  "Redux",
+                  "MongoDB",
+                  "REST APIs",
+                  "Video Upload",
+                  "Video Filtering",
+                  "Indexed Queries",
+                  "Responsive Design",
+                  "Deployment",
+                ].map((tech, key) => (
+                  <span
+                    key={key}
+                    className="bg-[#d2b48c] text-[#1a1a1a] py-1 px-3 rounded-full text-sm hover:bg-[#f5f5dc] hover:text-[#1a1a1a] transition"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+              <a
+                href="https://xflix.netlify.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block text-center bg-[#1a1a1a] text-[#f5f5dc] py-2 px-4 rounded font-medium hover:bg-[#4b3f2f] hover:text-[#f5f5dc] transition"
