@@ -57,8 +57,8 @@ export const About = () => {
             — from building internal platforms to deploying live e-commerce systems.
             <br />
             <br />
-            Currently pursuing my CS Master’s at{" "}
-            <span className="font-semibold text-[#d2b48c]">TU Darmstadt</span>, I’m
+            Currently pursuing Master's in Computer Science at{" "}
+            <span className="font-semibold text-[#d2b48c]">Technische Universität Darmstadt</span>, I’m
             looking for a working student role where I can contribute to scalable
             products, clean code, and great user experience.
           </p>
