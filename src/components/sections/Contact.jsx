@@ -29,19 +29,19 @@ export const Contact = () => {
   return (
     <section
       id="contact"
-      className="min-h-screen flex items-center justify-center relative bg-[#f5f5dc] overflow-hidden"
+      className="min-h-screen flex items-center justify-center relative bg-[#fdf6ed] overflow-hidden py-16"
     >
       <RevealOnScroll>
         <div className="text-center z-10 px-4">
           <h2 className="text-5xl md:text-6xl font-bold mb-8 bg-gradient-to-r from-[#8ecae6] to-[#d2b48c] bg-clip-text text-transparent text-center">
             Get In Touch
           </h2>
-
+          <div className="section-accent"></div>
           <form
             className="grid grid-cols-1 gap-6 max-w-lg mx-auto"
             onSubmit={handleSubmit}
           >
-            <div className="p-6 rounded-xl bg-[#f5f5dc] text-[#1a1a1a] hover:bg-[#d2b48c] hover:text-[#1a1a1a] transition-all duration-200 shadow-md hover:shadow-lg">
+            <div className="p-6 rounded-xl bg-[#fdf6ed] text-[#1a1a1a] border border-[#e3f2fd] hover:bg-[#e3f2fd] hover:text-[#1a1a1a] transition-all duration-200 shadow-lg hover:shadow-2xl">
               <input
                 type="text"
                 id="name"
@@ -56,7 +56,7 @@ export const Contact = () => {
               />
             </div>
 
-            <div className="p-6 rounded-xl bg-[#f5f5dc] text-[#1a1a1a] hover:bg-[#d2b48c] hover:text-[#1a1a1a] transition-all duration-200 shadow-md hover:shadow-lg">
+            <div className="p-6 rounded-xl bg-[#fdf6ed] text-[#1a1a1a] border border-[#e3f2fd] hover:bg-[#e3f2fd] hover:text-[#1a1a1a] transition-all duration-200 shadow-lg hover:shadow-2xl">
               <input
                 type="email"
                 id="email"
@@ -71,7 +71,7 @@ export const Contact = () => {
               />
             </div>
 
-            <div className="p-6 rounded-xl bg-[#f5f5dc] text-[#1a1a1a] hover:bg-[#d2b48c] hover:text-[#1a1a1a] transition-all duration-200 shadow-md hover:shadow-lg">
+            <div className="p-6 rounded-xl bg-[#fdf6ed] text-[#1a1a1a] border border-[#e3f2fd] hover:bg-[#e3f2fd] hover:text-[#1a1a1a] transition-all duration-200 shadow-lg hover:shadow-2xl">
               <textarea
                 id="message"
                 name="message"
@@ -88,7 +88,7 @@ export const Contact = () => {
 
             <button
               type="submit"
-              className="p-6 rounded-xl bg-[#1a1a1a] text-[#f5f5dc] hover:bg-[#4b3f2f] hover:text-[#f5f5dc] transition-all duration-200 shadow-md hover:shadow-lg font-medium"
+              className="p-6 rounded-xl bg-[#1a1a1a] text-[#f5f5dc] hover:bg-[#4b3f2f] hover:text-[#f5f5dc] transition-all duration-200 shadow-lg hover:shadow-2xl font-medium focus:ring-2 focus:ring-[#8ecae6] hover:scale-105"
             >
               Send Message
             </button>

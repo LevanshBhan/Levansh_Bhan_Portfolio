@@ -14,34 +14,14 @@ function App() {
   const [isLoaded, setIsLoaded] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 
-  // Meteor animation logic (move from Home/Projects to here)
-  useEffect(() => {
-    const createMeteor = () => {
-      const meteor = document.createElement("div");
-      meteor.className = "meteor";
-      meteor.style.left = `${Math.random() * window.innerWidth}px`;
-      meteor.style.animationDuration = `${Math.random() * 2 + 2}s`;
-      document.body.appendChild(meteor);
-
-      setTimeout(() => {
-        meteor.remove();
-      }, 4000);
-    };
-
-    const interval = setInterval(createMeteor, 500);
-    return () => clearInterval(interval);
-  }, []);
-
   return (
     <>
       {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)} />}
       <div
         className={`min-h-screen transition-opacity duration-700 ${
           isLoaded ? "opacity-100" : "opacity-0"
-        } bg-black text-gray-100 relative`}
+        } bg-[#fdf6ed] text-[#232323] relative`} // Lighter cream
       >
-        {/* Global star background */}
-        <div className="fixed inset-0 bg-stars pointer-events-none z-0"></div>
         <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Home />

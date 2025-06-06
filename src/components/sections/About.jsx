@@ -43,14 +43,15 @@ export const About = () => {
   return (
     <section
       id="about"
-      className="min-h-screen flex items-center justify-center relative bg-[#f5f5dc] overflow-hidden"
+      className="min-h-screen flex items-center justify-center relative bg-[#fdf6ed] overflow-hidden py-16"
     >
       <RevealOnScroll>
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-5xl font-bold mb-8 bg-gradient-to-r from-[#8ecae6] to-[#d2b48c] bg-clip-text text-transparent text-center">
             About Me
           </h2>
-          <p className="text-[#232323] text-lg mb-8 max-w-lg mx-auto">
+          <div className="section-accent"></div>
+          <p className="text-[#232323] text-lg mb-8 max-w-lg mx-auto leading-relaxed">
             I’ve worked on real-world fullstack projects during internships at{" "}
             <span className="font-semibold text-[#d2b48c]">PwC</span> and{" "}
             <span className="font-semibold text-[#d2b48c]">Amicus Infotech</span>
@@ -66,13 +67,13 @@ export const About = () => {
           {/* Skills Section */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Frontend Skills */}
-            <div className="p-6 rounded-xl bg-[#f5f5dc] text-[#1a1a1a] border border-[#e3f2fd] hover:bg-[#e3f2fd] hover:text-[#1a1a1a] transition-all duration-200 shadow-md hover:shadow-xl">
+            <div className="p-6 rounded-xl bg-[#fdf6ed] text-[#1a1a1a] border border-[#e3f2fd] hover:bg-[#e3f2fd] hover:text-[#1a1a1a] transition-all duration-200 shadow-lg hover:shadow-2xl">
               <h3 className="text-xl font-bold mb-4">Frontend</h3>
               <div className="flex flex-wrap gap-2">
                 {frontendSkills.map((tech, key) => (
                   <span
                     key={key}
-                    className="bg-[#d2b48c] text-[#1a1a1a] py-1 px-3 rounded-full text-sm hover:bg-[#f5f5dc] hover:text-[#1a1a1a] transition"
+                    className="bg-[#d2b48c] border border-[#e3f2fd] text-[#1a1a1a] py-1 px-3 rounded-full text-sm hover:bg-[#f5f5dc] hover:text-[#1a1a1a] transition"
                   >
                     {tech}
                   </span>
@@ -81,13 +82,13 @@ export const About = () => {
             </div>
 
             {/* Backend Skills */}
-            <div className="p-6 rounded-xl bg-[#f5f5dc] text-[#1a1a1a] border border-[#e3f2fd] hover:bg-[#e3f2fd] hover:text-[#1a1a1a] transition-all duration-200 shadow-md hover:shadow-xl">
+            <div className="p-6 rounded-xl bg-[#fdf6ed] text-[#1a1a1a] border border-[#e3f2fd] hover:bg-[#e3f2fd] hover:text-[#1a1a1a] transition-all duration-200 shadow-lg hover:shadow-2xl">
               <h3 className="text-xl font-bold mb-4">Backend</h3>
               <div className="flex flex-wrap gap-2">
                 {backendSkills.map((tech, key) => (
                   <span
                     key={key}
-                    className="bg-[#d2b48c] text-[#1a1a1a] py-1 px-3 rounded-full text-sm hover:bg-[#f5f5dc] hover:text-[#1a1a1a] transition"
+                    className="bg-[#d2b48c] border border-[#e3f2fd] text-[#1a1a1a] py-1 px-3 rounded-full text-sm hover:bg-[#f5f5dc] hover:text-[#1a1a1a] transition"
                   >
                     {tech}
                   </span>
@@ -96,13 +97,13 @@ export const About = () => {
             </div>
 
             {/* Database Skills */}
-            <div className="p-6 rounded-xl bg-[#f5f5dc] text-[#1a1a1a] border border-[#e3f2fd] hover:bg-[#e3f2fd] hover:text-[#1a1a1a] transition-all duration-200 shadow-md hover:shadow-xl">
+            <div className="p-6 rounded-xl bg-[#fdf6ed] text-[#1a1a1a] border border-[#e3f2fd] hover:bg-[#e3f2fd] hover:text-[#1a1a1a] transition-all duration-200 shadow-lg hover:shadow-2xl">
               <h3 className="text-xl font-bold mb-4">Databases</h3>
               <div className="flex flex-wrap gap-2">
                 {databaseSkills.map((tech, key) => (
                   <span
                     key={key}
-                    className="bg-[#d2b48c] text-[#1a1a1a] py-1 px-3 rounded-full text-sm hover:bg-[#f5f5dc] hover:text-[#1a1a1a] transition"
+                    className="bg-[#d2b48c] border border-[#e3f2fd] text-[#1a1a1a] py-1 px-3 rounded-full text-sm hover:bg-[#f5f5dc] hover:text-[#1a1a1a] transition"
                   >
                     {tech}
                   </span>
@@ -111,13 +112,13 @@ export const About = () => {
             </div>
 
             {/* DevOps Skills */}
-            <div className="p-6 rounded-xl bg-[#f5f5dc] text-[#1a1a1a] border border-[#e3f2fd] hover:bg-[#e3f2fd] hover:text-[#1a1a1a] transition-all duration-200 shadow-md hover:shadow-xl">
+            <div className="p-6 rounded-xl bg-[#fdf6ed] text-[#1a1a1a] border border-[#e3f2fd] hover:bg-[#e3f2fd] hover:text-[#1a1a1a] transition-all duration-200 shadow-lg hover:shadow-2xl">
               <h3 className="text-xl font-bold mb-4">DevOps & Tools</h3>
               <div className="flex flex-wrap gap-2">
                 {devOpsSkills.map((tech, key) => (
                   <span
                     key={key}
-                    className="bg-[#d2b48c] text-[#1a1a1a] py-1 px-3 rounded-full text-sm hover:bg-[#f5f5dc] hover:text-[#1a1a1a] transition"
+                    className="bg-[#d2b48c] border border-[#e3f2fd] text-[#1a1a1a] py-1 px-3 rounded-full text-sm hover:bg-[#f5f5dc] hover:text-[#1a1a1a] transition"
                   >
                     {tech}
                   </span>
@@ -126,13 +127,13 @@ export const About = () => {
             </div>
 
             {/* Core Strengths */}
-            <div className="p-6 rounded-xl bg-[#f5f5dc] text-[#1a1a1a] border border-[#e3f2fd] hover:bg-[#e3f2fd] hover:text-[#1a1a1a] transition-all duration-200 shadow-md hover:shadow-xl">
+            <div className="p-6 rounded-xl bg-[#fdf6ed] text-[#1a1a1a] border border-[#e3f2fd] hover:bg-[#e3f2fd] hover:text-[#1a1a1a] transition-all duration-200 shadow-lg hover:shadow-2xl">
               <h3 className="text-xl font-bold mb-4">Core Strengths</h3>
               <div className="flex flex-wrap gap-2">
                 {coreStrengths.map((strength, key) => (
                   <span
                     key={key}
-                    className="bg-[#d2b48c] text-[#1a1a1a] py-1 px-3 rounded-full text-sm hover:bg-[#f5f5dc] hover:text-[#1a1a1a] transition"
+                    className="bg-[#d2b48c] border border-[#e3f2fd] text-[#1a1a1a] py-1 px-3 rounded-full text-sm hover:bg-[#f5f5dc] hover:text-[#1a1a1a] transition"
                   >
                     {strength}
                   </span>
@@ -143,7 +144,7 @@ export const About = () => {
 
           {/* Education Section */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-            <div className="p-6 rounded-xl bg-[#f5f5dc] text-[#1a1a1a] border border-[#e3f2fd] hover:bg-[#e3f2fd] hover:text-[#1a1a1a] transition-all duration-200 shadow-md hover:shadow-xl">
+            <div className="p-6 rounded-xl bg-[#fdf6ed] text-[#1a1a1a] border border-[#e3f2fd] hover:bg-[#e3f2fd] hover:text-[#1a1a1a] transition-all duration-200 shadow-lg hover:shadow-2xl">
               <h3 className="text-xl font-bold mb-4">🏫 Education</h3>
               <ul className="list-disc list-inside text-[#1a1a1a] space-y-2">
                 <li>
