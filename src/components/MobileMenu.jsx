@@ -14,7 +14,7 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
 
   return (
     <div
-      className={`fixed inset-0 bg-[rgba(255,255,255,0.95)] backdrop-blur-md z-50 flex flex-col items-center justify-center transition-all duration-300 ease-in-out
+      className={`fixed inset-0 bg-[rgba(255,255,255,0.95)] backdrop-blur-md z-50 flex flex-col items-center justify-center transition-all duration-300 ease-in-out shadow-2xl
         ${menuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}
       `}
     >
