@@ -6,9 +6,9 @@ export const RevealOnScroll = ({ children }) => {
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
-        if (entry.isIntersecting) {
+        if (entry.isIntersecting && ref.current) {
           ref.current.classList.add("visible");
-        } else {
+        } else if (ref.current) {
           ref.current.classList.remove("visible"); // Ensure it hides when out of view
         }
       },
@@ -17,7 +17,9 @@ export const RevealOnScroll = ({ children }) => {
 
     if (ref.current) observer.observe(ref.current);
 
-    return () => observer.disconnect();
+    return () => {
+      observer.disconnect();
+    };
   }, []);
 
   return (
