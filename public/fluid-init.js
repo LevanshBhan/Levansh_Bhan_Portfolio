@@ -29,8 +29,8 @@ let config = {
     SIM_RESOLUTION: 128,
     DYE_RESOLUTION: 1024,
     CAPTURE_RESOLUTION: 512,
-    DENSITY_DISSIPATION: 1.0, // Never fade
-    VELOCITY_DISSIPATION: 1.0, // Never fade
+    DENSITY_DISSIPATION: 0.9998, // Colors last 10+ seconds
+    VELOCITY_DISSIPATION: 0.9998, // Motion lasts 10+ seconds
     PRESSURE: 0.8,
     PRESSURE_ITERATIONS: 20,
     CURL: 30,
