@@ -1009,4 +1009,4 @@ function hashCode (s) {
 // Add a timer to continuously generate random splats
 setInterval(function() {
   multipleSplats(parseInt(Math.random() * 20) + 5);
-}, 2000);
+}, 5000);
