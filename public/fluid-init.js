@@ -37,7 +37,7 @@ let config = {
     SPLAT_RADIUS: 0.45,
     SPLAT_FORCE: 6000,
     SHADING: true,
-    COLORFUL: false, // Use a single color
+    COLORFUL: false, // Use custom golden/silver/cream palette
     COLOR_UPDATE_SPEED: 10,
     PAUSED: false,
     BACK_COLOR: { r: 0, g: 0, b: 0 },
@@ -924,11 +924,21 @@ window.addEventListener('keydown', function (e) {
 });
 
 function generateColor () {
-    let c = HSVtoRGB(Math.random(), 1.0, 1.0);
-    c.r *= 0.15;
-    c.g *= 0.15;
-    c.b *= 0.15;
-    return c;
+    // Golden, silver, and cream color palette
+    let colors = [
+        {r: 0.8, g: 0.6, b: 0.2},  // Golden
+        {r: 0.7, g: 0.7, b: 0.7},  // Silver
+        {r: 0.9, g: 0.85, b: 0.7}, // Cream
+        {r: 0.9, g: 0.8, b: 0.4},  // Light gold
+        {r: 0.8, g: 0.8, b: 0.8},  // Light silver
+        {r: 0.95, g: 0.9, b: 0.75} // Light cream
+    ];
+    
+    let color = colors[Math.floor(Math.random() * colors.length)];
+    color.r *= 0.25;
+    color.g *= 0.25;
+    color.b *= 0.25;
+    return color;
 }
 
 function HSVtoRGB (h, s, v) {
@@ -1008,5 +1018,5 @@ function hashCode (s) {
 
 // Add a timer to continuously generate random splats
 setInterval(function() {
-  multipleSplats(parseInt(Math.random() * 20) + 5);
-}, 5000);
+  multipleSplats(parseInt(Math.random() * 5) + 2); // Minimum splats
+}, 3000);
