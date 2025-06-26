@@ -489,7 +489,7 @@ export const Contact = () => {
                 
                 <div className="space-y-3">
                   {[
-                    { href: "/resume.pdf", icon: Download, text: "Download Resume" },
+                    { href: "https://drive.google.com/file/d/15JsvdShrEtj6iJMWyDIzgez6XlCt51EF/view?usp=sharing", icon: Download, text: "Download Resume" },
                     { href: "https://github.com/levanshbhan", icon: Github, text: "View GitHub Profile" },
                     { href: "https://www.linkedin.com/in/levansh-bhan", icon: Linkedin, text: "Connect on LinkedIn" }
                   ].map((action, index) => (

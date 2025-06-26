@@ -128,7 +128,7 @@ export const Home = () => {
                   <FaArrowDown className="group-hover:translate-y-1 transition-transform" />
                 </a>
                 <a
-                  href="/resume.pdf"
+                  href="https://drive.google.com/file/d/15JsvdShrEtj6iJMWyDIzgez6XlCt51EF/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-secondary group glow"

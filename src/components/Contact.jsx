@@ -202,7 +202,7 @@ const Contact = () => {
               </p>
               <div className="flex gap-3">
                 <motion.a
-                  href="/resume-en.pdf"
+                  href="https://drive.google.com/file/d/15JsvdShrEtj6iJMWyDIzgez6XlCt51EF/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 px-4 py-2 bg-cyan-500 text-black rounded-lg font-medium hover:bg-cyan-400 transition-colors"
@@ -213,7 +213,7 @@ const Contact = () => {
                   English
                 </motion.a>
                 <motion.a
-                  href="/resume-de.pdf"
+                  href="https://drive.google.com/file/d/15JsvdShrEtj6iJMWyDIzgez6XlCt51EF/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 px-4 py-2 bg-green-500 text-black rounded-lg font-medium hover:bg-green-400 transition-colors"
