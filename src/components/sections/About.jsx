@@ -28,29 +28,42 @@ const educations = [
 
 const experiences = [
   {
-    company: "Amicus Infotech",
-    location: "New Delhi, India",
-    position: "FULL‑STACK DEVELOPER INTERN",
-    date: "Mar. 2022 – May 2022",
+    company: "AMICUS INFOTECH",
+    location: "Delhi, India",
+    position: "FULL STACK DEVELOPER",
+    date: "Mar 2022 – May 2023",
     achievements: [
-      "Developed ASP.NET Core MVC app modules improving response times by 40% through optimized SQL queries",
-      "Built secure JWT‑based authentication and role‑based access control, increasing system security",
-      "Implemented CI/CD pipelines with GitHub Actions; reduced release times by 25%",
-      "Converted Figma UI designs into responsive views using Bootstrap and Razor templates",
-      "Worked in Agile sprints, achieving 90%+ story completion rate with weekly client feedback loops"
+      "Developed and maintained 8+ full-stack web applications for small and medium businesses (SMBs), using React.js, Node.js, and SQL Server, serving over 5,000 total users",
+      "Integrated secure payment gateways such as Razorpay and Stripe into e-commerce platforms, enabling over 2,000 monthly transactions with 99.9% uptime",
+      "Improved application performance by optimizing SQL queries, implementing caching strategies, and refactoring inefficient code, resulting in a 40% faster load time and 25% increase in user satisfaction",
+      "Collaborated with senior developers through structured code reviews and regular knowledge-sharing sessions, contributing to the adoption of team-wide best practices and a 30% improvement in code quality",
+      "Designed and implemented automated CI/CD workflows using Git and cloud hosting platforms (GitHub Actions, Vercel, Netlify, AWS), reducing manual deployment errors by 60% and cutting deployment time by 45%",
+      "Delivered tailored software solutions including inventory management systems, dynamic business websites, and client dashboards, consistently meeting tight deadlines with 100% on-time project delivery"
     ]
   },
   {
-    company: "PricewaterhouseCoopers (PwC)",
-    location: "Gurugram, India",
-    position: "SOFTWARE DEVELOPER INTERN",
+    company: "PRICEWATERHOUSECOOPERS (PWC)",
+    location: "Delhi, India",
+    position: "SOFTWARE DEVELOPMENT ENGINEER",
     date: "Oct 2021 – Dec 2021",
     achievements: [
-      "Built a cross‑platform booking system using React.js and ASP.NET serving 10,000+ monthly users",
-      "Designed JWT‑secured APIs supporting scalable session management and user roles",
-      "Improved site load speed by 35% through lazy loading, asset optimization, and modular React components",
-      "Ensured WCAG 2.1 accessibility compliance via semantic HTML, ARIA roles, and keyboard support",
-      "Gathered technical and non‑technical requirements and delivered functional prototypes on time"
+      "Contributed to the development of enterprise web applications for financial services automation, using React.js, Node.js, and PostgreSQL, serving over 10,000 users",
+      "Built and maintained RESTful APIs and microservices using Java Spring Boot, enabling compliance and audit workflows with 99.5% uptime reliability",
+      "Participated in Agile development processes, including daily stand-ups, sprint planning, and retrospectives, while maintaining 95%+ code coverage through unit and integration testing",
+      "Supported cross-functional teams on cloud integration projects using AWS services (EC2, S3, Lambda), contributing to digital transformation efforts for healthcare and manufacturing clients",
+      "Applied enterprise-grade development practices, including version control (Git), peer code reviews, and adherence to scalable architecture patterns in large, distributed systems"
+    ]
+  },
+  {
+    company: "SCALE AI (CONTRACT)",
+    location: "Remote, United States",
+    position: "FREELANCE SOFTWARE ENGINEER",
+    date: "Jun 2021 – Feb 2022",
+    achievements: [
+      "Created high-quality 'golden outputs' in React, TypeScript, and Python to serve as accurate reference data for training and fine-tuning AI models",
+      "Analyzed and refined messy, inconsistent human-generated prompts, transforming them into clear, precise inputs to help AI learn effectively",
+      "Developed complex, user-friendly UIs for Fortune 500 clients, integrating detailed human feedback to improve AI data labeling and validation workflows",
+      "Collaborated closely with AI teams to enhance annotation quality, ensuring the models trained on reliable, well-structured data for improved accuracy"
     ]
   }
 ];
